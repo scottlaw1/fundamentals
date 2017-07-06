@@ -64,6 +64,7 @@
     <Compile Include="SimpleNodeTests.cs" />
     <Compile Include="SimpleStackTests.cs" />
     <Compile Include="StringTests1_1.cs" />
+    <Compile Include="StringTests1_5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
