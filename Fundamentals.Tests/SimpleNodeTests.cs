@@ -5,7 +5,7 @@ namespace Fundamentals.Tests
     public class SimpleNodeTests
     {
         [Fact]
-        public void InitializeSimpleNodeCreatesOneNodeSinglyLinkedList()
+        public void InitializeSimpleNodeWithValueCreatesOneNodeSinglyLinkedList()
         {
             int expectedValue = 1;
             SimpleNode sn = new SimpleNode(expectedValue);

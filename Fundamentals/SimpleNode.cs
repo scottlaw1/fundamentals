@@ -3,7 +3,6 @@
     public class SimpleNode
     {
         int data;
-
         SimpleNode next;
 
         public SimpleNode Next
@@ -11,6 +10,10 @@
             get
             {
                 return next;
+            }
+            internal set
+            {
+                next = this;
             }
         }
 
@@ -22,10 +25,15 @@
             }
         }
 
-        public SimpleNode(int data)
+        public SimpleNode()
         {
             next = null;
+            data = default(int);
+        }
+        public SimpleNode(int data)
+        {
             this.data = data;
+            next = null;
         }
 
         public void AppendNode(int data)
