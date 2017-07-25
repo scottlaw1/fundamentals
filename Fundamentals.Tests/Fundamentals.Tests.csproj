@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="FibonacciTests.cs" />
     <Compile Include="NodeTests.cs" />
+    <Compile Include="PalindromeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleNodeTests.cs" />
     <Compile Include="SimpleStackTests.cs" />
