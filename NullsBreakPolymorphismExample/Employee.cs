@@ -4,6 +4,8 @@ namespace NullsBreakPolymorphismExample
 {
     public class Employee
     {
+        public static Employee NotFound = new Employee() { FirstName = "No First Name", LastName = "No Last Name", DateHired = DateTime.MinValue };
+
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateHired { get; set; }
@@ -18,5 +20,9 @@ namespace NullsBreakPolymorphismExample
             }
             return (endDate - DateHired).Days;
         }
+
+        public override string ToString() => (this == NotFound ?
+                        "Unknown employee" :
+                        $"{FirstName} {LastName}: {TenureInDays()} days");
     }
 }
