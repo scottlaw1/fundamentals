@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentals", "Fundamentals\Fundamentals.csproj", "{54262DB9-F6E1-4944-9935-8AD9EC0DA981}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentals.Tests", "Fundamentals.Tests\Fundamentals.Tests.csproj", "{48788F89-C874-4987-ABCE-28A1EBAA7BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullsBreakPolymorphismExample", "NullsBreakPolymorphismExample\NullsBreakPolymorphismExample.csproj", "{AD030569-F7E1-4199-B869-EBE1F690EBF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{48788F89-C874-4987-ABCE-28A1EBAA7BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48788F89-C874-4987-ABCE-28A1EBAA7BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48788F89-C874-4987-ABCE-28A1EBAA7BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD030569-F7E1-4199-B869-EBE1F690EBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD030569-F7E1-4199-B869-EBE1F690EBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD030569-F7E1-4199-B869-EBE1F690EBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD030569-F7E1-4199-B869-EBE1F690EBF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0EDECB4-839D-4099-BAF5-7414FD89FBE1}
 	EndGlobalSection
 EndGlobal
